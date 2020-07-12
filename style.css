@@ -1,0 +1,188 @@
+html {
+    background: url(/images/background.jpg) center center repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: #E6F1FF;
+    margin: 0px;
+}
+
+#text a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+}
+
+#oracle {
+    min-height: 100vh;
+    margin: 70px 0 0;
+}
+
+.sec-in {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+#tit-oracle .sec-in #logo {
+    content: "";
+    background: url(/images/logo.svg) 0 0 no-repeat;
+    height: 49px;
+    width: auto;
+    text-align: left;
+}
+
+img {
+    width: 238px;
+    height: 238px;
+}
+
+#oracle-img {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#oracle-main {
+    margin: 30px 0 0;
+}
+
+#oracle-main .sec-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#oracle-main .sec-in h2 {
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 0.04em;
+    margin: 0 0 34px;
+}
+
+#oracle-main .sec-in button {
+    background-color: #FC7961;
+    border: none;
+    width: 263px;
+    height: 63px;
+    border-radius: 8px;
+    margin: 0 0 34px;
+}
+
+#oracle-main .sec-in button span {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.023em;
+}
+
+#prophecy-tit {
+    min-height: 50px;
+    font-size: 40px;
+    opacity: 0;
+    letter-spacing: 0.023em;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#text {
+    min-height: 50px;
+    font-size: 40px;
+    letter-spacing: 0.023em;
+    margin: 10px 0 20px;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#interpretation {
+    min-height: 50px;
+    font-size: 40px;
+    letter-spacing: 0.023em;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#credits {
+    background-color: rgba(242, 247, 255, 0.9);
+    margin: 0px;
+    padding: 25px;
+    color: #333;
+}
+
+#credits a {
+    color: #333;
+    text-decoration: none;
+}
+
+#credits h3 {
+    margin: 0 0 15px;
+}
+
+#explanation a {
+    text-decoration: underline;
+}
+
+#explanation p {
+    line-height: 1.5;
+}
+
+footer {
+    color: #333;
+    text-align: center;
+    opacity: 0.64;
+    line-height: 1;
+    margin: 50px 0 0;
+}
+
+footer p {
+    line-height: 1.5;
+}
+
+
+/* Phones */
+
+@media only screen and (max-width: 768px) {
+    #oracle {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sec-in {
+        margin: 50px auto 0;
+        padding: 0;
+    }
+    #tit-oracle .sec-in #logo {
+        height: 30px;
+        width: auto;
+        background-size: 100% 30px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    #oracle-main .sec-in h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    #oracle-main .sec-in button {
+        width: 245px;
+        height: 55px;
+    }
+    #oracle-main .sec-in button span {
+        font-size: 18px;
+    }
+    #prophecy-tit {
+        font-size: 24px;
+        text-align: center;
+    }
+    #text {
+        font-size: 34px;
+    }
+    #interpretation {
+        font-size: 24px;
+        text-align: center;
+    }
+    #credits {
+        margin: 15px 0 0 0;
+    }
+}
