@@ -1,3 +1,4 @@
+// stuff from the old site
 let targetOpacity = 0.74;
 var lastProphecy = null;
 var textFadeTimeout = null;
