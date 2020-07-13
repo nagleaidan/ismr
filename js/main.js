@@ -1,4 +1,26 @@
+let lastISMR = null;
+
+function playRandomISMR() {
+	lastISMR = getRandomElement(sounds);
+	playAudio(lastISMR.audio);
+	// updateText();
+}
+
+function replayLastISMR() {
+	playAudio(lastISMR.audio);
+}
+
+function playAudio(data) {
+	const audio = new Audio(data);
+	audio.play();
+}
+
+function getRandomElement(x) {
+	return x[Math.floor(Math.random() * x.length)];
+}
+
 // stuff from the old site
+/*
 let targetOpacity = 0.74;
 var lastProphecy = null;
 var textFadeTimeout = null;
@@ -8,12 +30,6 @@ let text = document.getElementById("text");
 let interpretation = document.getElementById("interpretation");
 let prophecyTitle = document.getElementById("prophecy-tit");
 let oracleImage = document.getElementById("oracle-img");
-
-function playRandomProphecy() {
-	lastProphecy = getRandomElement(prophecies);
-	playAudio(lastProphecy.audio);
-	updateText();
-}
 
 function updateText() {
 	window.clearTimeout(textFadeTimeout);
@@ -40,31 +56,4 @@ function fadeInInterpretation() {
 		interpretation.style.opacity = targetOpacity;
 	}
 }
-
-function playDivineOracleSound() {
-	if (oracleImage.style.opacity == 0) {
-		return;
-	}
-	let more = ["06", "15", "40"];
-	let randomSound = getRandomElement(more);
-	playAudio(randomSound);
-	oracleImage.style.transition = "transform 0.175s linear";
-	oracleImage.style.transform = "scale(1.1)";
-	window.setTimeout(() => {
-		oracleImage.style.transform = "scale(1.0)";
-	}, 175);
-}
-
-function playAudio(name) {
-	let data = sounds[name];
-	let audio = new Audio(data);
-	audio.play();
-}
-
-function replayLastProphecy() {
-	playAudio(lastProphecy.audio);
-}
-
-function getRandomElement(x) {
-	return x[Math.floor(Math.random() * x.length)];
-}
+*/
