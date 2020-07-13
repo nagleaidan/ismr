@@ -28,11 +28,7 @@ function updateText() {
 }
 
 function fadeInText() {
-    if (lastProphecy.audio == jeremy.audio) {
-        text.innerHTML = "<a target=\"_blank\" href=\"" + jeremy.twitter + "\">" + lastProphecy.text + "</a>";
-    } else {
-        text.innerText = lastProphecy.text;
-    }
+    text.innerText = lastProphecy.text;
     text.style.opacity = 1;
 }
 
@@ -46,7 +42,7 @@ function fadeInInterpretation() {
 
 function playDivineOracleSound() {
     if (oracleImage.style.opacity == 0) {
-        return
+        return;
     }
     let more = ["06", "15", "40"];
     let randomSound = getRandomElement(more);
@@ -59,7 +55,7 @@ function playDivineOracleSound() {
 }
 
 function playAudio(name) {
-    let data = sounds[name]
+    let data = sounds[name];
     let audio = new Audio(data);
     audio.play();
 }
