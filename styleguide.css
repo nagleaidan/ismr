@@ -1,0 +1,669 @@
+:root {
+	--black-700-opacity: rgba(57, 63, 73, 0.7);
+	--black-700: #252525;
+	--black-600: #393f49;
+	--black-500: #6a7483;
+	--black-400: #aeb3b9;
+	--black-300: #dee0e3;
+	--black-200: #f5f7fa;
+
+	--blue-700: #002255;
+	--blue-600: #012c6c;
+	--blue-500: #024ec0;
+	--blue-400: #5588d4;
+	--blue-300: #cbdaf2;
+	--blue-200: #f1f6fd;
+
+	--red: #d70000;
+	--cerulean-blue: #005dea;
+	--asdfff: #e6edf8;
+	--white: #ffffff;
+	--squash: #edb716;
+	--turquoise-blue: #02adc0;
+}
+
+.H1White {
+	font-family: 'Muli', sans-serif;
+	font-size: 47px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.36;
+	letter-spacing: normal;
+	color: var(--white);
+}
+.H1Blue500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 47px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.36;
+	letter-spacing: normal;
+	color: var(--cerulean-blue);
+}
+.H1Black700 {
+	font-family: 'Muli', sans-serif;
+	font-size: 47px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.36;
+	letter-spacing: normal;
+	color: var(--black-700);
+}
+.H1Black500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 47px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.36;
+	letter-spacing: normal;
+	color: var(--black-500);
+}
+.H2White {
+	font-family: 'Muli', sans-serif;
+	font-size: 37px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	color: var(--white);
+}
+.H2Blue500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 37px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	color: var(--cerulean-blue);
+}
+.H2Black700 {
+	font-family: 'Muli', sans-serif;
+	font-size: 37px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	color: var(--black-700);
+}
+.H2Black500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 37px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	color: var(--black-500);
+}
+.H3White {
+	font-family: 'Muli', sans-serif;
+	font-size: 29px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.45;
+	letter-spacing: normal;
+	color: var(--white);
+}
+.H3Blue500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 29px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.45;
+	letter-spacing: normal;
+	color: var(--cerulean-blue);
+}
+.H3Black700 {
+	font-family: 'Muli', sans-serif;
+	font-size: 29px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.45;
+	letter-spacing: normal;
+	color: var(--black-700);
+}
+.H3Black500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 29px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.45;
+	letter-spacing: normal;
+	color: var(--black-500);
+}
+.H4WhiteSemiBold {
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: var(--white);
+}
+.H4Blue500SemiBold {
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: var(--cerulean-blue);
+}
+.H4Black700Semibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: var(--black-700);
+}
+.H4Black500Semibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: var(--black-500);
+}
+.H4WhiteRegular {
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: var(--white);
+}
+.H4Blue500Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: var(--cerulean-blue);
+}
+.H4Black700Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: var(--black-700);
+}
+.H4Black500Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: var(--black-500);
+}
+.H5White {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--white);
+}
+.H5Blue500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--cerulean-blue);
+}
+.H5Black700 {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--black-700);
+}
+.H5Black500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--black-500);
+}
+.H6WhiteSemibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--white);
+}
+.H6Blue500Semibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--cerulean-blue);
+}
+.H6Black700Semibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--black-700);
+}
+.H6Black500Semibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--black-500);
+}
+.H6WhiteRegular {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--white);
+}
+.H6Blue500Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--cerulean-blue);
+}
+.H6Black700Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--black-700);
+}
+.H6Black500Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--black-500);
+}
+.H7WhiteSemibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--white);
+}
+.H7Blue500Semibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--cerulean-blue);
+}
+.H7Black700Semibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--black-700);
+}
+.H7Black500Semibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--black-500);
+}
+.H7WhiteRegular {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--white);
+}
+.H7Blue500Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--cerulean-blue);
+}
+.H7Black700Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--black-700);
+}
+.H7Black500Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--black-500);
+}
+.P1Red {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: 0.1px;
+	color: var(--red);
+}
+.P1White {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: 0.1px;
+	color: var(--white);
+}
+.P1Blue500 {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: 0.1px;
+	color: var(--cerulean-blue);
+}
+.P1Black700 {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: 0.1px;
+	color: var(--black-700);
+}
+.P1Black500 {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: 0.1px;
+	color: var(--black-500);
+}
+.LabelWhite {
+	font-family: 'Muli', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.58;
+	letter-spacing: 0.8px;
+	color: var(--white);
+}
+.LabelBlue500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.58;
+	letter-spacing: 0.8px;
+	color: var(--cerulean-blue);
+}
+.LabelBlack700 {
+	font-family: 'Muli', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.58;
+	letter-spacing: 0.8px;
+	color: var(--black-700);
+}
+.LabelBlack500 {
+	font-family: 'Muli', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.58;
+	letter-spacing: 0.8px;
+	color: var(--black-500);
+}
+.P2White {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.1px;
+	color: var(--white);
+}
+.P2Blue500 {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.1px;
+	color: var(--cerulean-blue);
+}
+.P2Black700 {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.1px;
+	color: var(--black-700);
+}
+.P2Black500 {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.1px;
+	color: var(--black-500);
+}
+
+.CenterH6Black500Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	text-align: center;
+	color: var(--black-500);
+}
+
+.P2Red {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.1px;
+	color: var(--red);
+}
+
+.H7RedSemibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--red);
+}
+
+.H7RedRegular {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	color: var(--red);
+}
+
+.H6RedSemibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--red);
+}
+
+.CenterH6Black700Regular {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	text-align: center;
+	color: var(--black-700);
+}
+
+.MuliBold {
+	font-family: 'Muli', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.58;
+	letter-spacing: 0.8px;
+	color: #6d7785;
+}
+
+.CenterH6WhiteSemibold {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	text-align: center;
+	color: var(--white);
+}
+
+.CenterP2Black500 {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.1px;
+	text-align: center;
+	color: var(--black-500);
+}
+
+.CenterH7WhiteRegular {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: 0.1px;
+	text-align: center;
+	color: var(--white);
+}

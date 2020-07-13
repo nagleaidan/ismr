@@ -6,25 +6,26 @@
 	<meta name="author" content="Irishman (Aidan Nagle)">
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="./images/dogcow.png" type="image/png">
-	<script type="text/javascript" src="/js/ismr.js"></script>
-	<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript" src="./js/ismr.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styleguide.css">
 	<link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body style="height: 100vh; margin: 0;">
-	<header
-		style="height: min-content; display: flex; align-items: center; justify-content: center; margin-bottom: 5em;">
-		<img src="./images/dogcow.png" alt="Clarus" style="height: 100px; margin-right: 2em;;">
+<body>
+	<header>
+		<img src="./images/dogcow.png" alt="Clarus">
 		<div>
 			<span class="H1Black700">ISMR </span>
 			<span class="H3Black700">featuring Stephen Hackett</span>
 		</div>
 	</header>
-	<main style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-		<button>speak to me</button>
-		<div style="font-style: italic;">ASMR</div>
+	<main>
+		<img src="./images/hackett.png" alt="stephen">
+		<div class="NotAButton H4Black700Regular" onclick="playRandomProphecy()">Speak</div>
+		<div style="font-style: italic; display: none;">ASMR</div>
 	</main>
 </body>
 
