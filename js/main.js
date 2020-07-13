@@ -34,7 +34,7 @@ function fadeInText() {
 }
 
 function pickRandomPic() {
-	// this gives a 5x3% chance for the picture of Stephen to not be a professionally looking picture
+	// this gives a 6x3% chance for the picture of Stephen to not be a professionally looking picture
 	// and instead be a goofy looking picture from some of his videos on the 512Pixels YouTube channel
 	const pic = document.getElementById('hackett');
 	const rand = Math.floor(Math.random() * 100 / 3);
@@ -43,6 +43,7 @@ function pickRandomPic() {
 	if (rand === 2) pic.setAttribute('src', './images/hackett_mask.png');
 	if (rand === 3) pic.setAttribute('src', './images/hackett_shrug.png');
 	if (rand === 4) pic.setAttribute('src', './images/hackett_twoPhones.png');
+	if (rand === 5 || rand === 6) pic.setAttribute('src', './images/hackett_mutton.png');
 	// I set the img to have `display: none` and remove that once the picture has been changed
 	// this is to prevent flashes of the main picture if you get one of the goofy ones
 	pic.style.removeProperty('display');
