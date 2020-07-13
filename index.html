@@ -40,7 +40,8 @@
 		if (rand === 3) pic.setAttribute('src', './images/hackett_shrug.png');
 		// I set the img to have `display: none` and remove that once the picture has been changed
 		// this is to prevent flashes of the main picture if you get one of the goofy ones
-		pic.removeAttribute('style');
+		// pic.removeAttribute('style');
+		pic.style.removeProperty('display')
 	</script>
 </body>
 
