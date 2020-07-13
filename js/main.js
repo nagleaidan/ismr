@@ -1,9 +1,12 @@
 let lastISMR = null;
+const targetOpacity = 0.74;
+let textFadeTimeout = null;
+let text = document.getElementById("text");
 
 function playRandomISMR() {
 	lastISMR = getRandomElement(sounds);
 	playAudio(lastISMR.audio);
-	// updateText();
+	updateText();
 }
 
 function replayLastISMR() {
@@ -19,41 +22,29 @@ function getRandomElement(x) {
 	return x[Math.floor(Math.random() * x.length)];
 }
 
-// stuff from the old site
-/*
-let targetOpacity = 0.74;
-var lastProphecy = null;
-var textFadeTimeout = null;
-var interpretationFadeTimeout = null;
-
-let text = document.getElementById("text");
-let interpretation = document.getElementById("interpretation");
-let prophecyTitle = document.getElementById("prophecy-tit");
-let oracleImage = document.getElementById("oracle-img");
-
 function updateText() {
 	window.clearTimeout(textFadeTimeout);
-	window.clearTimeout(interpretationFadeTimeout);
-
-	oracleImage.style.opacity = 1;
-
 	text.style.opacity = 0;
-	interpretation.style.opacity = 0;
-	prophecyTitle.style.opacity = 0;
 	textFadeTimeout = window.setTimeout(fadeInText, 600);
-	interpretationFadeTimeout = window.setTimeout(fadeInInterpretation, 1200);
 }
 
 function fadeInText() {
-	text.innerText = lastProphecy.text;
+	text.innerText = lastISMR.text;
 	text.style.opacity = 1;
 }
 
-function fadeInInterpretation() {
-	prophecyTitle.style.opacity = targetOpacity;
-	interpretation.innerText = interpretations[lastProphecy.interpretation];
-	if (lastProphecy.interpretation) {
-		interpretation.style.opacity = targetOpacity;
-	}
+function pickRandomPic() {
+	// this gives a 4x4% chance for the picture of Stephen to not be a professionally looking picture
+	// and instead be a goofy looking picture from some of his videos on the 512Pixels YouTube channel
+	const pic = document.getElementById('hackett');
+	const rand = Math.floor(Math.random() * 25);
+	if (rand === 0) pic.setAttribute('src', './images/hackett_boom.png');
+	if (rand === 1) pic.setAttribute('src', './images/hackett_hey.png');
+	if (rand === 2) pic.setAttribute('src', './images/hackett_mask.png');
+	if (rand === 3) pic.setAttribute('src', './images/hackett_shrug.png');
+	// I set the img to have `display: none` and remove that once the picture has been changed
+	// this is to prevent flashes of the main picture if you get one of the goofy ones
+	pic.style.removeProperty('display');
 }
-*/
+
+pickRandomPic();

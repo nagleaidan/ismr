@@ -6,8 +6,6 @@
 	<meta name="author" content="Irishman (Aidan Nagle)">
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="./images/dogcow.png" type="image/png">
-	<script type="text/javascript" src="./js/ismr.js"></script>
-	<script type="text/javascript" src="./js/main.js"></script>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="styleguide.css">
 	<link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
@@ -25,24 +23,12 @@
 	<main>
 		<!-- this image is from https://www.youtube.com/watch?v=PPD7jxSl04A&t=3s -->
 		<img id="hackett" src="./images/hackett.png" alt="stephen" style="display: none;">
-		<div class="NotAButton H4Black700Regular" onclick="playRandomISMR()">Speak</div>
-		<div style="font-style: italic; display: none;" onclick="replayLastISMR()">ISMR</div>
+		<div class="NotAButton H4Black700Regular" onclick="playRandomISMR()">Whisper</div>
+		<div id="text" onclick="replayLastISMR()"></div>
 	</main>
 
-	<script type="text/javascript">
-		// this gives a 4% chance for the picture of Stephen to not be some professionally looking picture
-		// and instead be a goofy looking picture from some of his videos on the 512Pixels YouTube channel
-		const pic = document.getElementById('hackett');
-		const rand = Math.floor(Math.random() * 25);
-		if (rand === 0) pic.setAttribute('src', './images/hackett_boom.png');
-		if (rand === 1) pic.setAttribute('src', './images/hackett_hey.png');
-		if (rand === 2) pic.setAttribute('src', './images/hackett_mask.png');
-		if (rand === 3) pic.setAttribute('src', './images/hackett_shrug.png');
-		// I set the img to have `display: none` and remove that once the picture has been changed
-		// this is to prevent flashes of the main picture if you get one of the goofy ones
-		// pic.removeAttribute('style');
-		pic.style.removeProperty('display')
-	</script>
+	<script type="text/javascript" src="./js/ismr.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>

@@ -22,9 +22,14 @@ main {
 	flex-direction: column;
 }
 
-main > img {
+#hackett {
 	height: 450px;
 	margin: 4em 0;
+}
+
+#text {
+	font-style: italic;
+	transition: opacity 0.6s ease-in-out;
 }
 
 .NotAButton {
