@@ -35,4 +35,34 @@ let sounds = [
 		"text": 'gamify your life',
 		"filepath": '280_1.mp3'
 	},
+	{
+		'episode': 290,
+		'timestamp': '51:57',
+		"text": '"unboxing" - 👑His Excellency, the Royal Keynote Chairman👑',
+		"filepath": '290_1.mp3'
+	},
+	{
+		'episode': 290,
+		'timestamp': '51:59',
+		"text": 'iPad Pro',
+		"filepath": '290_2.mp3'
+	},
+	{
+		'episode': 290,
+		'timestamp': '52:01',
+		"text": '6 gigs of RAM',
+		"filepath": '290_3.mp3'
+	},
+	{
+		'episode': 290,
+		'timestamp': '52:41',
+		"text": 'the plug',
+		"filepath": '290_4.mp3'
+	},
+	{
+		'episode': 290,
+		'timestamp': '52:48',
+		"text": 'under the prongs',
+		"filepath": '290_5.mp3'
+	},
 ]
