@@ -5,13 +5,13 @@ let text = document.getElementById("text");
 
 function playRandomISMR() {
 	lastISMR = getRandomElement(sounds);
-	console.log(`Playing an ismr from episode ${lastISMR.episode} (timestamp: ${lastISMR.timestamp})`)
+	console.log(`Playing an ismr from Connected episode ${lastISMR.episode} (timestamp: ${lastISMR.timestamp})`)
 	playAudio(lastISMR.filepath);
 	updateText();
 }
 
 function replayLastISMR() {
-	playAudio(lastISMR.audio);
+	playAudio(lastISMR.filepath);
 }
 
 function playAudio(filepath) {
@@ -39,12 +39,11 @@ function pickRandomPic() {
 	// and instead be a goofy looking picture from some of his videos on the 512Pixels YouTube channel
 	const pic = document.getElementById('hackett');
 	const rand = Math.floor(Math.random() * 100 / 3);
-	if (rand === 0) pic.setAttribute('src', './images/hackett_boom.png');
-	if (rand === 1) pic.setAttribute('src', './images/hackett_hey.png');
-	if (rand === 2) pic.setAttribute('src', './images/hackett_mask.png');
-	if (rand === 3) pic.setAttribute('src', './images/hackett_shrug.png');
-	if (rand === 4) pic.setAttribute('src', './images/hackett_twoPhones.png');
-	if (rand === 5 || rand === 6) pic.setAttribute('src', './images/hackett_mutton.png');
+	if (rand === 0) pic.setAttribute('src', './images/hackett_hey.png');
+	if (rand === 1) pic.setAttribute('src', './images/hackett_mask.png');
+	if (rand === 2) pic.setAttribute('src', './images/hackett_shrug.png');
+	if (rand === 3) pic.setAttribute('src', './images/hackett_twoPhones.png');
+	if (rand === 4 || rand === 5) pic.setAttribute('src', './images/hackett_mutton.png');
 	// I set the img to have `display: none` and remove that once the picture has been changed
 	// this is to prevent flashes of the main picture if you get one of the goofy ones
 	pic.style.removeProperty('display');
