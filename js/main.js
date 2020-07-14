@@ -5,7 +5,8 @@ let text = document.getElementById("text");
 
 function playRandomISMR() {
 	lastISMR = getRandomElement(sounds);
-	playAudio(lastISMR.audio);
+	console.log(`Playing an ismr from episode ${lastISMR.episode} (timestamp: ${lastISMR.timestamp})`)
+	playAudio(lastISMR.filepath);
 	updateText();
 }
 
@@ -13,8 +14,8 @@ function replayLastISMR() {
 	playAudio(lastISMR.audio);
 }
 
-function playAudio(data) {
-	const audio = new Audio(data);
+function playAudio(filepath) {
+	const audio = new Audio(`./audio/${filepath}`);
 	audio.play();
 }
 
