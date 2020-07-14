@@ -1,6 +1,15 @@
 body {
 	height: 100vh;
 	margin: 0;
+	
+	font-family: 'Muli', sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #252525;
 }
 
 header {
@@ -13,6 +22,28 @@ header {
 header > img {
 	height: 100px;
 	margin-right: 2em;
+}
+
+.title {
+	font-family: 'Muli', sans-serif;
+	font-size: 47px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.36;
+	letter-spacing: normal;
+	color: #252525;
+}
+
+.subtitle {
+	font-family: 'Muli', sans-serif;
+	font-size: 29px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.45;
+	letter-spacing: normal;
+	color: #252525;
 }
 
 main {

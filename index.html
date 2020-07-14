@@ -7,24 +7,22 @@
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="./images/dogcow.png" type="image/png">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="styleguide.css">
 	<link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<header>
 		<img src="./images/dogcow.png" alt="Clarus">
 		<div>
-			<span class="H1Black700">ISMR </span>
-			<span class="H3Black700">featuring Stephen Hackett</span>
+			<span class="title">ISMR </span>
+			<span class="subtitle">featuring Stephen Hackett</span>
 		</div>
 	</header>
 	<main>
 		<!-- this image is from https://www.youtube.com/watch?v=PPD7jxSl04A&t=3s -->
 		<img id="hackett" src="./images/hackett.png" alt="stephen" style="display: none;">
-		<div class="NotAButton H4Black700Regular" onclick="playRandomISMR()">Whisper</div>
-		<div id="text" class="H4Black700Regular" style="opacity: 0;" onclick="replayLastISMR()"></div>
+		<div class="NotAButton" onclick="playRandomISMR()">Whisper</div>
+		<div id="text" style="opacity: 0;" onclick="replayLastISMR()"></div>
 	</main>
 
 	<script type="text/javascript" src="./js/ismr.js"></script>
