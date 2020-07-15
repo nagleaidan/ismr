@@ -4,10 +4,18 @@ let textFadeTimeout = null;
 let text = document.getElementById("text");
 
 function playRandomISMR() {
-	lastISMR = getRandomElement(sounds);
+	setLastISMR();
 	console.log(`Playing an ismr from Connected episode ${lastISMR.episode} (timestamp: ${lastISMR.timestamp})`);
 	playAudio(lastISMR.filepath);
 	updateText();
+}
+
+function setLastISMR() {
+	tmp = null;
+	while (!(tmp && tmp !== lastISMR)) {
+		tmp = getRandomElement(sounds);
+	}
+	lastISMR = tmp;
 }
 
 function replayLastISMR() {
