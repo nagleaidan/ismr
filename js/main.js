@@ -5,7 +5,7 @@ let text = document.getElementById("text");
 
 function playRandomISMR() {
 	lastISMR = getRandomElement(sounds);
-	console.log(`Playing an ismr from Connected episode ${lastISMR.episode} (timestamp: ${lastISMR.timestamp})`)
+	console.log(`Playing an ismr from Connected episode ${lastISMR.episode} (timestamp: ${lastISMR.timestamp})`);
 	playAudio(lastISMR.filepath);
 	updateText();
 }
@@ -44,6 +44,7 @@ function pickRandomPic() {
 	if (rand === 2) pic.setAttribute('src', './images/hackett_shrug.png');
 	if (rand === 3) pic.setAttribute('src', './images/hackett_twoPhones.png');
 	if (rand === 4 || rand === 5) pic.setAttribute('src', './images/hackett_mutton.png');
+	if (rand === 6) pic.setAttribute('src', './images/hackett_toolman.png');
 	// I set the img to have `display: none` and remove that once the picture has been changed
 	// this is to prevent flashes of the main picture if you get one of the goofy ones
 	pic.style.removeProperty('display');
