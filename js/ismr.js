@@ -71,4 +71,74 @@ let sounds = [
 		"text": 'professionalism',
 		"filepath": '293_1.mp3'
 	},
+	{
+		'episode': 303,
+		"text": 'asmr',
+		"filepath": '303_asmr.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'a tiny windows pc',
+		"filepath": '303_aTinyWindowsPC.mp3'
+	},
+	{
+		'episode': 303,
+		"text": '"bonus content" - 👑His Excellency, the Royal Keynote Chairman👑',
+		"filepath": '303_bonusContentMyke.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'bye y\'all',
+		"filepath": '303_byeYall.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'cranks',
+		"filepath": '303_cranks.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'expanding',
+		"filepath": '303_expanding.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'if you wish',
+		"filepath": '303_ifYouWish.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'it got changed',
+		"filepath": '303_itGotChanged.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'members only',
+		"filepath": '303_membersOnly.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'onlyfans',
+		"filepath": '303_onlyfans.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'podcast and chill',
+		"filepath": '303_podcastAndChill.mp3'
+	},
+	{
+		'episode': 303,
+		"text": '🦠',
+		"filepath": '303_rrrrrr.mp3'
+	},
+	{
+		'episode': 303,
+		"text": 'whenever you want it',
+		"filepath": '303_wheneverYouWantIt.wav'
+	},
+	{
+		'episode': 303,
+		"text": 'widget wild',
+		"filepath": '303_widgetWild.wav'
+	},
 ]

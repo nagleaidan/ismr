@@ -3,19 +3,55 @@
 	"episodes": [
 		{
 			"number": 278,
-			"timestamps": ["7:53 -> asmr", "15:46 -> the shownotes", "29:40 -> the fbi", "1:10:30 -> pokemon", "1:27:39 -> pwas"]	
+			"timestamps": [
+				"7:53 -> asmr",
+				"15:46 -> the shownotes",
+				"29:40 -> the fbi",
+				"1:10:30 -> pokemon",
+				"1:27:39 -> pwas"
+			]
 		},
 		{
 			"number": 280,
-			"timestamps": ["1:17:41 -> gameify your life"]
+			"timestamps": [
+				"1:17:41 -> gameify your life"
+			]
 		},
 		{
 			"number": 287,
-			"timestamps": ["51:57 -> unboxing by Myke", "51:59 -> iPad Pro", "52:01 -> 6 gigs of RAM", "52:41 -> the plug", "52:48 -> under the prongs"]
+			"timestamps": [
+				"51:57 -> unboxing by Myke",
+				"51:59 -> iPad Pro",
+				"52:01 -> 6 gigs of RAM",
+				"52:41 -> the plug",
+				"52:48 -> under the prongs"
+			]
 		},
 		{
 			"number": 293,
-			"timestamps": ["1:28 -> professionalism"]
+			"timestamps": [
+				"1:28 -> professionalism"
+			]
+		},
+		{
+			"number": 303,
+			// note, these times are from a bootleg, not the edited version
+			"timestamps": [
+				"8:52 -> rrrrrrrrr by Viticci (during Viticci's trip to southern Italy segment",
+				"14:32 -> a tiny windows pc (during Stephen's kids computers segment",
+				"29:53 -> whenever you want it (during ismr.space segment)*",
+				"30:06 -> expanding (during ismr.space segment)*",
+				"30:10 -> onlyfans (during ismr.space segment)*",
+				"30:55 -> members only (during ismr.space segment)*",
+				"37:20 -> it got changed (during Connected artwork segment)*",
+				"38:06 -> cranks (during lego console segment)*",
+				"53:15 -> podcast and chill (during car segment)",
+				"1:22:57 -> if you wish (during app library segment)*",
+				"? -> asmr (somewhere near the beginning)*",
+				"? -> bonus content by Myke*",
+				"? -> bye y'all (very end)*",
+				"? -> widget wild (during app library segment)*"
+			]
 		}
 	]
 }

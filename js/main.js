@@ -5,7 +5,7 @@ let text = document.getElementById("text");
 
 function playRandomISMR() {
 	setLastISMR();
-	console.log(`Playing an ismr from Connected episode ${lastISMR.episode} (Connected Pro timestamp: ${lastISMR.timestamp})`);
+	// console.log(`Playing an ismr from Connected episode ${lastISMR.episode} (Connected Pro timestamp: ${lastISMR.timestamp})`);
 	playAudio(lastISMR.filepath);
 	updateText();
 }
