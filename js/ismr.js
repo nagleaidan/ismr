@@ -65,4 +65,10 @@ let sounds = [
 		"text": 'under the prongs',
 		"filepath": '287_5.mp3'
 	},
+	{
+		'episode': 293,
+		'timestamp': '1:28',
+		"text": 'professionalism',
+		"filepath": '293_1.mp3'
+	},
 ]
