@@ -141,4 +141,9 @@ let sounds = [
 		"text": 'widget wild',
 		"filepath": '303_widgetWild.wav'
 	},
+	{
+		'episode': -1,
+		"text": 'slofies',
+		"filepath": 'Slofies.m4a'
+	},
 ]
