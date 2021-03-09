@@ -8,4 +8,4 @@ The name `ISMR` comes from a portmanteau of ASMR and [@ismh](https://twitter.com
 
 The site is pure vanilla JS and hosted on GitHub Pages with automatic deployments. I don't have very much public programming work, as the vast majority of my time is spent programming for my company, but I'm proud of this site.
 
-If you want to listen to the host's reaction, it was during episode 303 at 6:48 (a direct link to the moment https://overcast.fm/+FXx4lNhtU/06:48).
+If you want to listen to the hosts' reaction, it was during episode 303 at 6:48 (a direct link to the moment https://overcast.fm/+FXx4lNhtU/06:48).
